@@ -9,8 +9,8 @@ export default function Contacts({ navigation }) {
   };
   return (
     <View style={gStyle.main}>
-      <Text style={gStyle.title}>Contacts</Text>
-      <Button title={"Go Back"} onPress={goBack} />
+      <Text style={gStyle.title}>Sorry, but we are cat people</Text>
+      <Button color={"#eac9c0"} title={"Go Back to cats"} onPress={goBack} />
     </View>
   );
 }

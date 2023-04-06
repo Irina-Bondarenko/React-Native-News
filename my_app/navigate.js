@@ -13,28 +13,49 @@ export default function Navigate() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name={"Main"}
+          name={"Cat Page"}
           component={Main}
           options={{
-            title: "Main page",
+            title: "Cats page",
+            headerTitleAlign: "center",
             headerStyle: {
               backgroundColor: "#eb5d3d",
               height: 100,
             },
             headerTitleStyle: {
-              fontWeight: "light",
+              fontWeight: "bold",
             },
           }}
         />
         <Stack.Screen
-          name={"Contacts"}
+          name={"Dogs Page"}
           component={Contacts}
-          options={{ title: "Contacts" }}
+          options={{
+            title: "Dogs Page",
+            headerTitleAlign: "center",
+            headerStyle: {
+              backgroundColor: "#eb5d3d",
+              height: 100,
+            },
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
         />
         <Stack.Screen
           name={"FullInfo"}
           component={FullInfo}
-          options={{ title: "FullInfo" }}
+          options={{
+            title: "Thank you page",
+            headerTitleAlign: "center",
+            headerStyle: {
+              backgroundColor: "#eb5d3d",
+              height: 100,
+            },
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
